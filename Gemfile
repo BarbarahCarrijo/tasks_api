@@ -45,3 +45,17 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "rspec-rails", "~> 5.1", :groups => [:development, :test]
+
+gem "simplecov", "~> 0.22.0", :group => :test
+
+gem "simplecov_json_formatter", "~> 0.1.4", :group => :test
+
+gem "shoulda-matchers", "~> 5.3", :group => :test
+
+gem "factory_bot_rails", "~> 6.2", :groups => [:development, :test]
+
+gem "faker", "~> 3.2", :groups => [:development, :test]
+
+gem "database_cleaner-active_record", "~> 2.1", :group => :test
